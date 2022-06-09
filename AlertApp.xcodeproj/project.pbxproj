@@ -13,6 +13,7 @@
 		741AF4F028527674007FB4A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741AF4EE28527674007FB4A0 /* Main.storyboard */; };
 		741AF4F228527675007FB4A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 741AF4F128527675007FB4A0 /* Assets.xcassets */; };
 		741AF4F528527675007FB4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 741AF4F328527675007FB4A0 /* LaunchScreen.storyboard */; };
+		741AF4FD285280F7007FB4A0 /* MainAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 741AF4FC285280F7007FB4A0 /* MainAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		741AF4F128527675007FB4A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		741AF4F428527675007FB4A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		741AF4F628527675007FB4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		741AF4FC285280F7007FB4A0 /* MainAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +61,21 @@
 				741AF4E828527674007FB4A0 /* AppDelegate.swift */,
 				741AF4EA28527674007FB4A0 /* SceneDelegate.swift */,
 				741AF4EC28527674007FB4A0 /* ViewController.swift */,
+				741AF4FE285280FC007FB4A0 /* Model */,
 				741AF4EE28527674007FB4A0 /* Main.storyboard */,
 				741AF4F128527675007FB4A0 /* Assets.xcassets */,
 				741AF4F328527675007FB4A0 /* LaunchScreen.storyboard */,
 				741AF4F628527675007FB4A0 /* Info.plist */,
 			);
 			path = AlertApp;
+			sourceTree = "<group>";
+		};
+		741AF4FE285280FC007FB4A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				741AF4FC285280F7007FB4A0 /* MainAlert.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				741AF4ED28527674007FB4A0 /* ViewController.swift in Sources */,
 				741AF4E928527674007FB4A0 /* AppDelegate.swift in Sources */,
+				741AF4FD285280F7007FB4A0 /* MainAlert.swift in Sources */,
 				741AF4EB28527674007FB4A0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

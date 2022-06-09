@@ -55,6 +55,9 @@
                                         <color key="tintColor" systemColor="opaqueSeparatorColor"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="Finde sum"/>
+                                        <connections>
+                                            <action selector="findeSum:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xcV-8Y-kDA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T6M-Jx-4iK">
                                         <rect key="frame" x="177" y="0.0" width="177" height="50"/>
@@ -83,11 +86,13 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="buttonStackLabel" destination="sPI-Vs-pPX" id="fJm-er-2qV"/>
+                        <outlet property="buttonStackLabel" destination="sPI-Vs-pPX" id="rhe-d7-nB9"/>
                         <outlet property="findeSumButton" destination="Dd9-TY-LEY" id="ufn-8j-87B"/>
                         <outlet property="guessButton" destination="T6M-Jx-4iK" id="N51-hF-qCw"/>
+                        <outlet property="guessLabel" destination="w6j-cr-rxa" id="OQh-ip-m2p"/>
                         <outlet property="nameLabel" destination="Okp-2x-GAb" id="G1j-bA-myk"/>
                         <outlet property="resultLabel" destination="wo3-zL-ePo" id="elb-Ey-Lin"/>
+                        <outlet property="sumLabel" destination="N9G-qT-FAu" id="Ebt-Tn-qyH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
