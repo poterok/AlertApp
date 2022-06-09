@@ -34,6 +34,8 @@ class ViewController: UIViewController {
         resultLabel.layer.cornerRadius = 10
         buttonStackLabel.layer.masksToBounds = true
         buttonStackLabel.layer.cornerRadius = 10
+        
+        
     }
 
 
